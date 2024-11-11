@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B21563FA2CB5A27200DA4C35 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B21563F92CB5A26800DA4C35 /* .gitignore */; };
+		B21563FC2CB5A2A100DA4C35 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21563FB2CB5A29B00DA4C35 /* Config.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B21563CE2CB23EAC00DA4C35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		B21563BD2CB23EAA00DA4C35 /* weather-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21563CD2CB23EAC00DA4C35 /* weather-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21563D72CB23EAC00DA4C35 /* weather-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21563F92CB5A26800DA4C35 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B21563FB2CB5A29B00DA4C35 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		B21563B42CB23EAA00DA4C35 = {
 			isa = PBXGroup;
 			children = (
+				B21563FB2CB5A29B00DA4C35 /* Config.swift */,
+				B21563F92CB5A26800DA4C35 /* .gitignore */,
 				B21563BF2CB23EAA00DA4C35 /* weather-app */,
 				B21563D02CB23EAC00DA4C35 /* weather-appTests */,
 				B21563DA2CB23EAC00DA4C35 /* weather-appUITests */,
@@ -212,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21563FA2CB5A27200DA4C35 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21563FC2CB5A2A100DA4C35 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
